@@ -1,0 +1,30 @@
+.service-card-landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-card-landing > img {
+    transform: translateY(1.6rem);
+}
+
+.service-card-landing-title{
+    font-size: 2rem;
+}
+
+.service-card-landing-content{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.service-card-landing-content{
+    padding: 2rem;
+    border: 3px solid var(--clr-main);
+    border-radius: 10px;
+}
+
+.service-card-line-separator{
+    min-height: 3px;
+    background-color: var(--clr-main);
+    margin-block: 1.5rem;
+}

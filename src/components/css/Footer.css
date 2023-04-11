@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5rem;
+}
+
+.footer > *{
+    flex-basis: 33.33%;
+}
+
+.footer-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer-title{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.social-media-footer > img{
+    width: 20rem;
+}
+
+.social-media-list-footer{
+    display: flex;
+    gap: 2rem;
+}
+
+.social-media-list-footer > img{
+    width: 3rem;
+}
