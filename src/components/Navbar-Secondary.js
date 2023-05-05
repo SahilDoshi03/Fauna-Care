@@ -16,10 +16,10 @@ export default function NavbarSecondary(){
         <nav className="navbar-secondary container">
             <ul className="nav-list-secondary" data-visible = {navBarOpen}>
                 <li className="nav-list-item-secondary">
-                    <NavLink to="/">Grooming Services</NavLink>
+                    <NavLink to="/groomingservices">Grooming Services</NavLink>
                 </li>
                 <li className="nav-list-item-secondary">
-                    <NavLink to="/about">Shop</NavLink>
+                    <NavLink to="/">Shop</NavLink>
                 </li>
                 <li className="nav-list-item-secondary">Health & Advice</li>
                 <li className="nav-list-item-secondary">Adopt</li>
