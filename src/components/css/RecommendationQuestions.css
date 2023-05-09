@@ -1,0 +1,12 @@
+.recommendation-questions{
+    margin-block: 1rem
+}
+
+.single-option{
+    margin-top: 1rem;
+    margin-left: 2rem
+}
+
+.importance-slider{
+    max-width: 30rem;
+}
