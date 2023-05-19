@@ -21,6 +21,10 @@
     text-decoration: none;
 }
 
+.logo{
+    margin-block: .5rem;
+}
+
 .hamburger{
     display: none;
 }

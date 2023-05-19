@@ -6,6 +6,25 @@
     /* margin-inline: clamp(0rem,1vw,20rem); */
 }
 
+.home-to-recommender-system{
+    display: grid;
+    place-items: center;
+    background-image: url('../../assets/paws_background.svg');
+    margin-top: 4rem;
+}
+
+.home-to-recommender-system-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 40ch;
+    background-color: white;
+    margin: 10rem;
+    text-align: center;
+}
+
 .adopt-section-landing, .foster-section-landing{
     display: flex;
     align-items: center;
@@ -35,4 +54,24 @@
 
 .foster-section-button-landing{
     background-color: white;
+}
+
+.shopping-section-landing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+
+.shopping-title-underline{
+  height: 5px;
+  width: 40rem;
+  background-color: #FFBCC0;
+  margin-bottom: 10rem;
+}
+
+.shopping-cards-landing-container{
+  display: flex;
+  gap: 10rem;
 }

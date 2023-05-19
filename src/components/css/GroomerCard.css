@@ -1,0 +1,26 @@
+/* #FFD9DB */
+
+.groomer-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #FFBCC0;
+    border-radius: 100%;
+    background-color: #FFD9DB;
+    height: 25rem;
+    width: 25rem;
+    gap: 1rem;
+}
+
+.groomer-card > img{
+    max-width: 10rem;
+}
+
+.groomer-card-job{
+    font-size: 1.5rem;
+}
+
+.groomer-card-name{
+    font-size: 2rem;
+}

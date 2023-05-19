@@ -16,7 +16,7 @@ export default function NavbarPrimary(){
     return(
         <nav className="navbar-primary container">
             <NavLink to="/">
-                <img src={logo} alt="logo" />
+                <img src={logo} alt="logo" className='logo'/>
             </NavLink>
             <ul className="nav-list-primary" data-visible = {navBarOpen}>
                 <li className="nav-list-item-primary">

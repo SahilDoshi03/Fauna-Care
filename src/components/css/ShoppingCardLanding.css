@@ -1,0 +1,16 @@
+.shopping-card-landing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: #FFBCC0;
+    width: 20rem;
+    height: 30rem;
+}
+
+.shopping-card-landing > img{
+    width: 15rem;
+    height: 20rem;
+}

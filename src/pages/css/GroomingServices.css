@@ -3,9 +3,10 @@
     align-items: center;
     justify-content: center;
     gap: 10rem;
+    margin-top: 3rem;
 }
 
-.appointment-section-grooming > *{
+.appointment-section-grooming > * {
     flex-basis: 50%;
 }
 
@@ -19,7 +20,8 @@
 
 .appointment-section-title-grooming{
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: 800;
 }
 
 .appointment-section-description-grooming{
@@ -27,3 +29,37 @@
     max-width: 30ch;
 }
 
+.services-section-grooming{
+    margin-block: 10rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5rem;
+}
+
+.groomers-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8rem;
+    place-items: center;
+    margin-bottom: 10rem;
+}
+
+.team-section-grooming{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.team-section-grooming-title{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #FFBCC0;
+}
+
+.team-section-grooming-title-sec{
+    font-size: 3rem;
+    font-weight: 800;
+}
