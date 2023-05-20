@@ -3,8 +3,15 @@ import groomingMain from '../assets/groomingMain.svg'
 import Footer from '../components/Footer.js'
 import ServiceCardGrooming from '../components/ServiceCardGrooming'
 import bathingImg from '../assets/bathing.svg'
+import haircut from '../assets/haircut.svg'
+import nailtrimming from '../assets/nailtrimming.svg'
+import teethcleaning from '../assets/teethcleaning.svg'
+import walking from '../assets/walking.svg'
+import eareye from '../assets/eareye.svg'
 import GroomerCard from '../components/GroomerCard'
 import groomer from '../assets/groomer.svg'
+import groomer1 from '../assets/groomer1.svg'
+import groomer2 from '../assets/groomer2.svg'
 
 export default function GroomingServices(){
 
@@ -14,24 +21,24 @@ export default function GroomingServices(){
             title: "Bathing",
         },
         {
-            img: bathingImg,
-            title: "Bathing",
+            img: haircut,
+            title: "Hair Cut",
         },
         {
-            img: bathingImg,
-            title: "Bathing",
+            img: eareye,
+            title: "Ear & Eye Cleaning",
         },
         {
-            img: bathingImg,
-            title: "Bathing",
+            img: nailtrimming,
+            title: "Nail Trimming",
         },
         {
-            img: bathingImg,
-            title: "Bathing",
+            img: teethcleaning,
+            title: "Teeth Cleaning",
         },
         {
-            img: bathingImg,
-            title: "Bathing",
+            img: walking,
+            title: "Walking & Training",
         }
     ]
 
@@ -42,14 +49,14 @@ export default function GroomingServices(){
             job: "Nail Trimmer"
         },
         {
-            img: groomer,
-            name: "Phoebe Buffay",
-            job: "Nail Trimmer"
+            img: groomer1,
+            name: "Chandler Bing",
+            job: "Trainer"
         },
         {
-            img: groomer,
-            name: "Phoebe Buffay",
-            job: "Nail Trimmer"
+            img: groomer2,
+            name: "Rachel Green",
+            job: "Hair Stylist"
         }
     ]
 
