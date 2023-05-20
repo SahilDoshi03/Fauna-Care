@@ -2,6 +2,8 @@ import './css/Home.css';
 import CarouselMain from "../components/Carousel-Main";
 import ServiceCardLanding from "../components/Service-Card-Landing";
 import doggie from '../assets/doggie.svg';
+import cat from '../assets/cat.svg';
+import pug from '../assets/pug.svg';
 import adoptLanding from '../assets/adopt-landing.svg';
 import fosterLanding from '../assets/foster-landing.svg';
 import Footer from '../components/Footer';
@@ -19,14 +21,14 @@ export default function Home(){
             description: "Are you a new pet parent? Feel free to ask queries and get advice from certified vets"
         },
         {
-            image: doggie,
-            title: "Health & Advice",
-            description: "Are you a new pet parent? Feel free to ask queries and get advice from certified vets"
+            image: cat,
+            title: "Toys & Treats",
+            description: "Pets love to play with our toys. and playtime is an important part of their development."
         },
         {
-            image: doggie,
-            title: "Health & Advice",
-            description: "Are you a new pet parent? Feel free to ask queries and get advice from certified vets"
+            image: pug,
+            title: "Pet Grooming",
+            description: "Take better care of your pets with us. We provide all the services you need."
         },
     ]
 
